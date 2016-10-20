@@ -327,99 +327,168 @@ This command will send text to [group_id]
 Commands list :
 
 ➤ !kick [username|id]
-You can also do it by reply
+You can also do it by replay
+بیرون انداختن شخصی از گروه با ریپلی پیام شخص با قابلیت بازگشت
+
 
 ➤ !ban [ username|id]
 You can also do it by reply
+بیرون انداختن شخصی از گروه با ریپلی کردن پیام او بدون قابلیت بازگشت
+
 
 ➤ !unban [id]
 You can also do it by reply
+خارج کردن فردی از لیست افرادی که ممنوعیت ورود به گروه دارند
 
-!who
+
+➤ !who
 Members list
+لیست افراد حاضر در گروه
 
-!modlist
+
+➤ !modlist
 Moderators list
+راهنما برای مدیران
 
-!promote [username]
+
+➤ !promote [username]
 Promote someone
+مدیر کردن شخصی در گروه و اجازه دسترسی شخص به تنظیمات ربات
 
-!demote [username]
+
+➤ !demote [username]
 Demote someone
+عزل کردن شخصی از مدیریت و قطع دسترسی او به تنظیمات ربات
 
-!kickme
+
+➤ !kickme
 Will kick user
+اخراج کردن شما توسط ربات غول سایبری از گروه
 
-!about
+
+➤ !about
 Group description
+در مورد گروه
 
-!setphoto
+
+➤ !setphoto
 Set and locks group photo
+تغییر دادن عکس پروفایل گروه توسط ربات
 
-!setname [name]
+
+➤ !setname [name]
 Set group name
+تغییر دادن نام گروه
 
-!rules
+
+➤ !rules
 Group rules
+نمایش قوانین گروه
 
-!id
+
+➤ !id
 Return group id or user id
+ایدی عددی 
 
-!help
+
+➤ !help
 Get commands list
+نمایش دوباره راهنمای ربات غول سایبری 
 
-!lock [member|name|bots|leave] 
+
+➤ !lock [member|name|bots|leave] 
 Locks [member|name|bots|leaveing] 
+قفل کردن :
+ دعوت اعضا،تغییر نام گروه،دعوت ربات به گروه،بازگشت شخص به گروه پس از خارج شدن
 
-!unlock [member|name|bots|leave]
+
+➤ !unlock [member|name|bots|leave]
 Unlocks [member|name|bots|leaving]
+خارج کردن، آزاد کردن از قفل:
+دعوت اعضا به گروه، تغییر نام گروه، دعوت کردن ربات به گروه،خروج از گروه
 
-!set rules [text]
+
+➤ !set rules [text]
 Set [text] as rules
+تنظیم متن قوانین گروه
 
-!set about [text]
+
+➤ !set about [text]
 Set [text] as about
+تنظیم متن توضیحات گروه
 
-!settings
+
+➤ !settings
 Returns group settings
+نمایش تنظیمات گروه
 
-!newlink
+
+➤ !newlink
 Create/revoke your group link
+ساخت لینک جدید و تعویض لینک فعلی گروه ،این دستور در گروه هایی که ربات سازنده است کار میکند
 
-!link
+
+➤ !link
 Returns group link
+دریافت لینک گروه، این دستور در گروه هایی که ربات سازنده است کار میکند.
 
-!owner
+
+➤ !owner
 Returns group owner id
+نمایش کنترل کننده و مدیر اصلی ربات در گروه
 
-!setowner [id]
+
+➤ !setowner [id]
 Will set id as owner
+تنظیم کنترل کننده و مدیر ربات در گروه
 
-!setflood [value]
+
+➤ !setflood [value]
 Set [value] as flood sensitivity
+تنظیم ارسال متن پشت سر هم ، با تنظیم این دستور شما تعیین میکنید که اگر کاربر در فاصله کم  بیش از تعداد تعیین شده توسط شما متن یا هر چیز دیگری ارسال کرد ربات کاربر را از گروه اخراج کند!
 
-!stats
+
+➤ !stats
 Simple message statistics
 
-!save [value] [text]
-Save [text] as [value]
 
-!get [value]
+
+➤ !save [value] [text]
+Save [text] as [value]
+ذخیره متن
+
+➤ !get [value]
 Returns text of [value]
 
-!clean [modlist|rules|about]
+
+➤ !clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
+پاک کردن:
+ توضیحات گروه، قوانینو لیست ممنوع شدگان از چت
 
-!res [username]
+
+➤ !res [username]
 Returns user id
+نمایش ایدی عددی شخص با ریپلی پیام او یا درج ایدی شخص
 
-!log
+
+➤ !log
 Will return group logs
+نمایش فعل و انفعالات ربات 
 
-!banlist
+➤ !banlist
 Will return group ban list
+لیست افراد اخراج شده دائم از گروه
+
+🚫 دستورات و راهنما بصورت اختصاصی برای این ربات طراحی شده
+
+➠ @CYBERGIANT
+➠ CHANNEL : @AF8_1BOT
+➲ CREATED BY : @AF8_1
 
 » U can use both "/" and "!" 
+شما میتونید از / و ! برای اجرای دستورات استفاده کنین!«
+
 
 » Only mods, owner and admin can add bots in group
 
