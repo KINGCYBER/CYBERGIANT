@@ -483,7 +483,7 @@ Will return group ban list
 🚫 دستورات و راهنما بصورت اختصاصی برای این ربات طراحی شده
 
 ➠ @CYBERGIANT
-➠ CHANNEL : @AF8_1BOT
+➠ CHANNEL : @AF8_BOTS
 ➲ CREATED BY : @AF8_1
 
 » U can use both "/" and "!" 
