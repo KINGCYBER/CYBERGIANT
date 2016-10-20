@@ -1,4 +1,4 @@
-package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
+۹package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
   ..';.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
@@ -326,13 +326,13 @@ This command will send text to [group_id]
     help_text = [[
 Commands list :
 
-!kick [username|id]
+➤ !kick [username|id]
 You can also do it by reply
 
-!ban [ username|id]
+➤ !ban [ username|id]
 You can also do it by reply
 
-!unban [id]
+➤ !unban [id]
 You can also do it by reply
 
 !who
